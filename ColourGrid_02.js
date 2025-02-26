@@ -424,7 +424,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"https://jjwinlove.github.io/ColourGrid_02_atlas_1.png?1740549882548", id:"ColourGrid_02_atlas_1"}
+		{src:"https://jjwinlove.github.io/puzzles/ColourGrid_02_atlas_1.png?1740549882548", id:"ColourGrid_02_atlas_1"}
 	],
 	preloads: []
 };
