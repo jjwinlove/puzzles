@@ -64,15 +64,43 @@ function handleComplete(evt,comp) {
 }
 function resizeCanvas() {
     var canvas = document.getElementById("canvas");
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    stage.scaleX = canvas.width / 400; // Scale based on original width
-    stage.scaleY = canvas.height / 550; // Scale based on original height
+    var container = document.getElementById("animation_container");
+    
+    var targetWidth = window.innerWidth;
+    var targetHeight = window.innerHeight;
+    
+    // Original dimensions of your canvas
+    var originalWidth = 400;
+    var originalHeight = 550;
+    
+    if (targetWidth < originalWidth || targetHeight < originalHeight) {
+        // MOBILE: Scale to fit screen
+        var scale = Math.min(targetWidth / originalWidth, targetHeight / originalHeight);
+        canvas.width = originalWidth * scale;
+        canvas.height = originalHeight * scale;
+        stage.scaleX = stage.scaleY = scale;
+    } else {
+        // DESKTOP: Keep original size
+        canvas.width = originalWidth;
+        canvas.height = originalHeight;
+        stage.scaleX = stage.scaleY = 1;
+    }
+
+    // Center the container in all cases
+    container.style.width = canvas.width + "px";
+    container.style.height = canvas.height + "px";
+    container.style.position = "absolute";
+    container.style.left = "50%";
+    container.style.top = "50%";
+    container.style.transform = "translate(-50%, -50%)"; // Centers the div
+
     stage.update();
 }
 
+// Run on load and resize
 window.addEventListener("resize", resizeCanvas);
-resizeCanvas(); // Call it once to apply the correct scaling immediately
+resizeCanvas();
+
 
 </script>
 <!-- write your code here -->
