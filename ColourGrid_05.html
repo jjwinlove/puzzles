@@ -11,15 +11,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="authoring-tool" content="Adobe_Animate_CC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <title>ColourGrid_05</title>
 <!-- write your code here -->
 <style>
-  #animation_container {
-	position:absolute;
-	margin:auto;
-	left:0;right:0;
-	top:0;bottom:0;
-  }
+#animation_container, canvas {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+}
 </style>
 <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
 <script src="ColourGrid_05.js"></script>
@@ -63,6 +62,18 @@ function handleComplete(evt,comp) {
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
+function resizeCanvas() {
+    var canvas = document.getElementById("canvas");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    stage.scaleX = canvas.width / 400; // Scale based on original width
+    stage.scaleY = canvas.height / 550; // Scale based on original height
+    stage.update();
+}
+
+window.addEventListener("resize", resizeCanvas);
+resizeCanvas(); // Call it once to apply the correct scaling immediately
+
 </script>
 <!-- write your code here -->
 </head>
