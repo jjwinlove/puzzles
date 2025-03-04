@@ -63,6 +63,43 @@ function handleComplete(evt,comp) {
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
+function resizeCanvas() {
+    var canvas = document.getElementById("canvas");
+    var container = document.getElementById("animation_container");
+
+    var targetWidth = window.innerWidth;
+    var targetHeight = window.innerHeight;
+
+    // Original dimensions of your canvas
+    var originalWidth = 400;
+    var originalHeight = 550;
+
+    if (targetWidth < originalWidth || targetHeight < originalHeight) {
+        // MOBILE: Scale down to fit screen
+        var scale = Math.min(targetWidth / originalWidth, targetHeight / originalHeight);
+        canvas.style.width = originalWidth * scale + "px";
+        canvas.style.height = originalHeight * scale + "px";
+        if (stage) {
+            stage.scaleX = stage.scaleY = scale;
+            stage.update();
+        }
+    } else {
+        // DESKTOP: Keep original size
+        canvas.style.width = originalWidth + "px";
+        canvas.style.height = originalHeight + "px";
+        if (stage) {
+            stage.scaleX = stage.scaleY = 1;
+            stage.update();
+        }
+    }
+}
+
+// Run resize after init
+window.addEventListener("resize", resizeCanvas);
+window.onload = function() {
+    init();
+    setTimeout(resizeCanvas, 100); // Delay to ensure everything is loaded
+};
 </script>
 <!-- write your code here -->
 </head>
