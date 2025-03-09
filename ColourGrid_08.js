@@ -2544,7 +2544,7 @@ if (reversed == null) { reversed = false; }
 		this.testTaps = 4; // SET TO 0 TO HAVE TEST TAPS PHASE // 0; // 
 		this.mistakeTaps = 0;
 		this.currentStage = 1;
-		this.gridArray = [["grid_4x4", 5, 7],["grid_5x5", 7, 1]];
+		this.gridArray = [["grid_4x4", 5, 7],["grid_5x5", 7, 1]];  // grid name, number of colours, number of shape options
 		this.whichGrid = 0; // Set default/starting grid to the 4x4
 		//this.numOfColours = 5; // Default
 		//this.numShapeOpts = 7; // Default
@@ -2573,6 +2573,7 @@ if (reversed == null) { reversed = false; }
 			// reset everything
 			//this.testTaps = 0; 
 			//console.log("New game called");
+			this[this.gridArray[this.whichGrid][0]].visible = true;
 			this.mistakeTaps = 0;
 			this.currentStage = 1
 			//this.resetText();
@@ -2588,18 +2589,22 @@ if (reversed == null) { reversed = false; }
 			let thisGrid = this.whichGrid;
 			let thisArray = this.gridArray;
 			if (thisGrid) {
-				//console.log("thisGrid = 1")
+				console.log("thisGrid = 1")
 				this.switchGrid._5to4.visible = true;
 				this.switchGrid._4to5.visible = false;
+				this.mistakesRemaining.visible = true;
+				this.dots.visible = true;
 			} else {
 				//console.log("thisGrid = 0")
 				this.switchGrid._4to5.visible = true;
 				this.switchGrid._5to4.visible = false;
+				this.mistakesRemaining.visible = false;
+				this.dots.visible = false;
 			}
 			let otherGrid = Math.abs(this.whichGrid - 1);
 			this[thisArray[otherGrid][0]].visible = true;
 			this[thisArray[thisGrid][0]].visible = false;
-			this.whichGrid = otherGrid;this.randomShapes();
+			this.whichGrid = otherGrid;
 			this.newGame();
 		 }
 		
@@ -2615,13 +2620,15 @@ if (reversed == null) { reversed = false; }
 		};
 		
 		this.resetShapeOrder = function() {
-			console.log("this.shapeOrder[0] = ", this.shapeOrder[0]);
-			console.log("numOfColours = ", this.gridArray[this.whichGrid][1]);
+			//console.log("this.shapeOrder[0] = ", this.shapeOrder[0]);
+			//console.log("numOfColours = ", this.gridArray[this.whichGrid][1]);
 			let y = this.gridArray[this.whichGrid][1]; // this.numOfColours;
 			for (let x = 1; x <= this.gridArray[this.whichGrid][1]; x++) {
-					console.log("Number of children for shape_", this.shapeOrder[x - 1], " = ", this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.numChildren);
-					this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.setChildIndex(this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]], y--);
+				console.log("Number of children for shape_", this.shapeOrder[x - 1], " = ", this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.numChildren);
+				this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.setChildIndex(this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]], y--);
+				setTimeout(() => {
 					this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].visible = true;
+				}, x * 20);
 			}
 		};
 		
@@ -2681,26 +2688,44 @@ if (reversed == null) { reversed = false; }
 			this[this.gridArray[this.whichGrid][0]].visible = false;
 			if (winResult) {
 				this.youWin.visible = true;
+				this.playAgain.visible = true;
 			} else { 
 				this.youLose.visible = true;
+				this.playAgain.visible = true;
 			}
 		}
 		
+		this.failDrop = function() { // Animate shapes disappearing one by one from the back to the front
+			console.log("failDrop function called");
+			let thisGrid = this.whichGrid;
+			let thisArray = this.gridArray;
+			for (let x = 1; x <= thisArray[thisGrid][1]; x++) {
+				setTimeout(() => {
+					this[thisArray[thisGrid][0]]["shape_" + x].visible = false;
+				}, x * 50);	
+			}
+			setTimeout(() => {
+				this.resetShapeOrder();
+			}, 1000);
+		}
+		
 		this.onTapFunction = function(shapeNum) {
-			this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum].parent.setChildIndex(this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum], this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum].parent.numChildren - 1);
-			createjs.Tween.get(this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum])
-		    .to({ scaleX: this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum].scaleX * 1.02, scaleY: this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum].scaleY * 1.02 }, 100, createjs.Ease.quadOut);
+			let thisGrid = this.whichGrid;
+			let thisArray = this.gridArray;
+			this[thisArray[thisGrid][0]]["shape_" + shapeNum].parent.setChildIndex(this[thisArray[thisGrid][0]]["shape_" + shapeNum], this[thisArray[thisGrid][0]]["shape_" + shapeNum].parent.numChildren - 1);
+			createjs.Tween.get(this[thisArray[thisGrid][0]]["shape_" + shapeNum])
+		    .to({ scaleX: this[thisArray[thisGrid][0]]["shape_" + shapeNum].scaleX * 1.02, scaleY: this[thisArray[thisGrid][0]]["shape_" + shapeNum].scaleY * 1.02 }, 100, createjs.Ease.quadOut);
 			setTimeout(() => {
 				//console.log("After 1 second");
-				createjs.Tween.get(this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum])
+				createjs.Tween.get(this[thisArray[thisGrid][0]]["shape_" + shapeNum])
 		    .to({ scaleX: 1, scaleY: 1 }, 100, createjs.Ease.quadOut);
 				if (this.gameOn) {
-					for (let x = 1; x <= this.gridArray[this.whichGrid][1]; x++) {
+					for (let x = 1; x <= thisArray[thisGrid][1]; x++) {
 						//console.log("TEST array[", [x - 1], "] = ", this.shapeOrder[x - 1]);
 						if (this.shapeOrder[x - 1] == shapeNum && this.currentStage == x) {
 							this.currentStage++;
 							//console.log("shapeNum = ", shapeNum);
-							this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum].visible = false;
+							this[thisArray[thisGrid][0]]["shape_" + shapeNum].visible = false;
 							this.animateIcon(true);
 							if (this.shapeOrder[this.shapeOrder.length - 1] === shapeNum) {
 								this.finishUp(true);
@@ -2717,10 +2742,14 @@ if (reversed == null) { reversed = false; }
 					//console.log("innerDot_", ++this.testTaps);
 					this.dots["innerDot_" + ++this.testTaps].visible = true;
 				} else {
-					this.dots["innerDot_" + ++this.mistakeTaps].visible = true;
+					this.dots["innerDot_" + (this.mistakeTaps + 1)].visible = true;
+					if (thisGrid == 0) {
+						this.mistakeTaps++;
+					}
 				}
 				this.animateIcon(false);
-				this.resetShapeOrder();
+				this.failDrop();
+				//this.resetShapeOrder();
 				if (this.testTaps == 3) { // if we finish the test tap stage
 					this.setGameOn();
 				} else if (this.mistakeTaps > 2) {  // if we make the third mistake
@@ -2752,7 +2781,7 @@ if (reversed == null) { reversed = false; }
 		});
 		
 		this.playAgain.addEventListener("click", (event) => {
-			this. newGame();
+			this.newGame();
 		});
 		
 		
@@ -2896,7 +2925,7 @@ if (reversed == null) { reversed = false; }
 	// Play_again
 	this.playAgain = new lib.PlayAgain();
 	this.playAgain.name = "playAgain";
-	this.playAgain.setTransform(259.5,328.9,1,1,0,0,0,59.5,9.6);
+	this.playAgain.setTransform(259.5,353.9,1,1,0,0,0,59.5,9.6);
 
 	this.timeline.addTween(cjs.Tween.get(this.playAgain).wait(9));
 
@@ -2927,9 +2956,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ColourGrid_08_atlas_1.png", id:"ColourGrid_08_atlas_1"},
-		{src:"images/ColourGrid_08_atlas_2.png", id:"ColourGrid_08_atlas_2"},
-		{src:"images/ColourGrid_08_atlas_3.png", id:"ColourGrid_08_atlas_3"}
+		{src:"images/ColourGrid_08_atlas_1.png?1741515316625", id:"ColourGrid_08_atlas_1"},
+		{src:"images/ColourGrid_08_atlas_2.png?1741515316625", id:"ColourGrid_08_atlas_2"},
+		{src:"images/ColourGrid_08_atlas_3.png?1741515316625", id:"ColourGrid_08_atlas_3"}
 	],
 	preloads: []
 };
