@@ -3,9 +3,9 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ColourGrid_08_atlas_1", frames: [[1362,0,544,544],[680,546,544,544],[1226,546,544,544],[0,1226,544,408],[0,680,544,544],[1638,1092,408,544],[0,1636,544,408],[546,1092,544,544],[1092,1092,544,544],[546,1638,544,408],[680,0,680,544],[1092,1638,544,408],[0,0,678,678]]},
+		{name:"ColourGrid_08_atlas_1", frames: [[1644,274,238,143],[0,410,238,143],[1976,123,54,34],[1918,85,56,36],[2005,52,35,27],[0,0,272,408],[274,0,272,408],[1644,0,272,272],[548,0,272,408],[822,0,272,408],[1096,0,272,408],[1116,410,169,39],[1287,410,253,16],[1976,0,55,50],[1370,0,272,408],[1918,58,85,25],[1918,0,56,56],[1976,85,56,36],[1918,123,56,36],[240,410,543,61],[785,410,329,64]]},
 		{name:"ColourGrid_08_atlas_2", frames: [[1230,820,544,272],[1230,0,408,408],[1774,410,272,408],[1094,1368,408,272],[1776,820,272,408],[546,1230,272,544],[1364,410,408,408],[1640,0,408,408],[0,820,408,408],[1504,1368,408,272],[410,820,408,408],[820,820,408,408],[1094,1642,408,272],[1230,1094,544,272],[0,0,408,544],[0,1504,272,544],[410,0,408,544],[820,1230,272,544],[0,1230,544,272],[1504,1642,408,272],[0,546,680,272],[820,0,408,544],[682,546,680,272]]},
-		{name:"ColourGrid_08_atlas_3", frames: [[1644,274,238,143],[0,410,238,143],[1976,123,54,34],[1918,85,56,36],[2005,52,35,27],[0,0,272,408],[274,0,272,408],[1644,0,272,272],[548,0,272,408],[822,0,272,408],[1096,0,272,408],[1116,410,169,39],[1287,410,253,16],[1976,0,55,50],[1370,0,272,408],[1918,58,85,25],[1918,0,56,56],[1976,85,56,36],[1918,123,56,36],[240,410,543,61],[785,410,329,64]]}
+		{name:"ColourGrid_08_atlas_3", frames: [[1362,0,544,544],[680,546,544,544],[1226,546,544,544],[0,1226,544,408],[0,680,544,544],[1638,1092,408,544],[0,1636,544,408],[546,1092,544,544],[1092,1092,544,544],[546,1638,544,408],[680,0,680,544],[1092,1638,544,408],[0,0,678,678]]}
 ];
 
 
@@ -30,42 +30,42 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_106 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_105 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_114 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_113 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_112 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_103 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -114,28 +114,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_96 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_95 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_94 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_93 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
@@ -163,14 +163,14 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_89 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_88 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -198,7 +198,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_84 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
@@ -212,14 +212,14 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_82 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_81 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
@@ -233,7 +233,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_79 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
@@ -254,21 +254,21 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_76 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_75 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_74 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
@@ -282,7 +282,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_72 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
@@ -310,28 +310,28 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_119 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_68 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_108 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_67 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
@@ -345,7 +345,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_65 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
@@ -366,63 +366,63 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_62 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_61 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_118 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_107 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_104 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_1"]);
+	this.initialize(ss["ColourGrid_08_atlas_3"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_115 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_109 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_116 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
-	this.initialize(ss["ColourGrid_08_atlas_3"]);
+	this.initialize(ss["ColourGrid_08_atlas_1"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -2573,7 +2573,6 @@ if (reversed == null) { reversed = false; }
 			// reset everything
 			//this.testTaps = 0; 
 			//console.log("New game called");
-			this[this.gridArray[this.whichGrid][0]].visible = true;
 			this.mistakeTaps = 0;
 			this.currentStage = 1
 			//this.resetText();
@@ -2581,15 +2580,19 @@ if (reversed == null) { reversed = false; }
 			this.generateRandomArray();
 			this.randomShapes();
 			this.shapeOrder = this.generateRandomArray();
-			this.resetShapeOrder();
+			this.shapeDrop(10);
+			//this.resetShapeOrder();
 			this.initAll();
+			setTimeout(() => {
+				this[this.gridArray[this.whichGrid][0]].visible = true;
+			}, 100);
 		}
 		
 		this.switchGridOver = function() {
 			let thisGrid = this.whichGrid;
 			let thisArray = this.gridArray;
 			if (thisGrid) {
-				console.log("thisGrid = 1")
+				//console.log("thisGrid = 1")
 				this.switchGrid._5to4.visible = false;
 				this.switchGrid._4to5.visible = true;
 				this.mistakesRemaining.visible = true;
@@ -2624,7 +2627,7 @@ if (reversed == null) { reversed = false; }
 			//console.log("numOfColours = ", this.gridArray[this.whichGrid][1]);
 			let y = this.gridArray[this.whichGrid][1]; // this.numOfColours;
 			for (let x = 1; x <= this.gridArray[this.whichGrid][1]; x++) {
-				console.log("Number of children for shape_", this.shapeOrder[x - 1], " = ", this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.numChildren);
+				//console.log("Number of children for shape_", this.shapeOrder[x - 1], " = ", this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.numChildren);
 				this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.setChildIndex(this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]], y--);
 				setTimeout(() => {
 					this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].visible = true;
@@ -2680,33 +2683,40 @@ if (reversed == null) { reversed = false; }
 		    createjs.Tween.get(theIcon)
 		        .to({ alpha: .7, scaleX: 1.2, scaleY: 1.2 }, 500, createjs.Ease.quadOut) // Fade in & scale up over 0.5s
 		        .to({ alpha: 0 }, 500, createjs.Ease.quadIn); // Fade out over 0.5s
-			//theIcon.visible = false;
 		}
 		
-		
 		this.finishUp = function(winResult) {
-			this[this.gridArray[this.whichGrid][0]].visible = false;
+			let thisGrid = this.whichGrid;
+			let thisArray = this.gridArray;
+			this[thisArray[thisGrid][0]].visible = false;
 			if (winResult) {
 				this.youWin.visible = true;
 				this.playAgain.visible = true;
-			} else { 
+			} else {
+				//this[thisArray[thisGrid][0]].visible = true;
+				//this.grid_4x4.shape_1.visible = true;
 				this.youLose.visible = true;
 				this.playAgain.visible = true;
 			}
 		}
 		
-		this.failDrop = function() { // Animate shapes disappearing one by one from the back to the front
-			console.log("failDrop function called");
+		this.shapeDrop = function(delayTime) { // Animate shapes disappearing one by one from the back to the front
+			//console.log("shapeDrop function called");
 			let thisGrid = this.whichGrid;
 			let thisArray = this.gridArray;
 			for (let x = 1; x <= thisArray[thisGrid][1]; x++) {
 				setTimeout(() => {
 					this[thisArray[thisGrid][0]]["shape_" + x].visible = false;
-				}, x * 50);	
+				}, x * delayTime);	
 			}
 			setTimeout(() => {
+				if (this.testTaps == 3) { // if we finish the test tap stage
+					this.setGameOn();
+				} else if (this.mistakeTaps > 2) {  // if we make the third mistake
+					this.finishUp(false);
+				}
 				this.resetShapeOrder();
-			}, 1000);
+			}, 750);
 		}
 		
 		this.onTapFunction = function(shapeNum) {
@@ -2748,13 +2758,15 @@ if (reversed == null) { reversed = false; }
 					}
 				}
 				this.animateIcon(false);
-				this.failDrop();
 				//this.resetShapeOrder();
+				this.shapeDrop(50);
+			/*
 				if (this.testTaps == 3) { // if we finish the test tap stage
 					this.setGameOn();
 				} else if (this.mistakeTaps > 2) {  // if we make the third mistake
 					this.finishUp(false);
 				}
+			*/
 			}, 500);
 		};
 		
