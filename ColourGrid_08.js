@@ -2590,14 +2590,14 @@ if (reversed == null) { reversed = false; }
 			let thisArray = this.gridArray;
 			if (thisGrid) {
 				console.log("thisGrid = 1")
-				this.switchGrid._5to4.visible = true;
-				this.switchGrid._4to5.visible = false;
+				this.switchGrid._5to4.visible = false;
+				this.switchGrid._4to5.visible = true;
 				this.mistakesRemaining.visible = true;
 				this.dots.visible = true;
 			} else {
 				//console.log("thisGrid = 0")
-				this.switchGrid._4to5.visible = true;
-				this.switchGrid._5to4.visible = false;
+				this.switchGrid._4to5.visible = false;
+				this.switchGrid._5to4.visible = true;
 				this.mistakesRemaining.visible = false;
 				this.dots.visible = false;
 			}
@@ -2956,9 +2956,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ColourGrid_08_atlas_1.png?1741515316625", id:"ColourGrid_08_atlas_1"},
-		{src:"images/ColourGrid_08_atlas_2.png?1741515316625", id:"ColourGrid_08_atlas_2"},
-		{src:"images/ColourGrid_08_atlas_3.png?1741515316625", id:"ColourGrid_08_atlas_3"}
+		{src:"images/ColourGrid_08_atlas_1.png", id:"ColourGrid_08_atlas_1"},
+		{src:"images/ColourGrid_08_atlas_2.png", id:"ColourGrid_08_atlas_2"},
+		{src:"images/ColourGrid_08_atlas_3.png", id:"ColourGrid_08_atlas_3"}
 	],
 	preloads: []
 };
