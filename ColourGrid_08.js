@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ColourGrid_08_atlas_1", frames: [[1644,274,238,143],[0,410,238,143],[1976,123,54,34],[1918,85,56,36],[2005,52,35,27],[0,0,272,408],[274,0,272,408],[1644,0,272,272],[548,0,272,408],[822,0,272,408],[1096,0,272,408],[1116,410,169,39],[1287,410,253,16],[1976,0,55,50],[1370,0,272,408],[1918,58,85,25],[1918,0,56,56],[1976,85,56,36],[1918,123,56,36],[240,410,543,61],[785,410,329,64]]},
+		{name:"ColourGrid_08_atlas_1", frames: [[1644,274,238,143],[0,410,238,143],[1976,123,54,34],[1918,85,56,36],[2005,52,35,27],[-445357715,-512923345,796091751,-278106301],[-445357715,-512923345,796091751,-278106301],[0,0,272,408],[274,0,272,408],[1644,0,272,272],[548,0,272,408],[822,0,272,408],[1096,0,272,408],[1127,410,169,39],[1298,410,253,16],[1976,0,55,50],[1370,0,272,408],[1918,58,85,25],[1918,0,56,56],[1976,85,56,36],[1918,123,56,36],[240,410,554,55],[796,410,329,64]]},
 		{name:"ColourGrid_08_atlas_2", frames: [[1230,820,544,272],[1230,0,408,408],[1774,410,272,408],[1094,1368,408,272],[1776,820,272,408],[546,1230,272,544],[1364,410,408,408],[1640,0,408,408],[0,820,408,408],[1504,1368,408,272],[410,820,408,408],[820,820,408,408],[1094,1642,408,272],[1230,1094,544,272],[0,0,408,544],[0,1504,272,544],[410,0,408,544],[820,1230,272,544],[0,1230,544,272],[1504,1642,408,272],[0,546,680,272],[820,0,408,544],[682,546,680,272]]},
 		{name:"ColourGrid_08_atlas_3", frames: [[1362,0,544,544],[680,546,544,544],[1226,546,544,544],[0,1226,544,408],[0,680,544,544],[1638,1092,408,544],[0,1636,544,408],[546,1092,544,544],[1092,1092,544,544],[546,1638,544,408],[680,0,680,544],[1092,1638,544,408],[0,0,678,678]]}
 ];
@@ -115,7 +115,7 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_96 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -129,14 +129,14 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_94 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_93 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -220,7 +220,7 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_81 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -255,14 +255,14 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_76 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_75 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -311,28 +311,28 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_119 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_68 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_108 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_67 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(14);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -381,14 +381,14 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_118 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(15);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_107 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(16);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -402,28 +402,28 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_115 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_109 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(18);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_116 = function() {
+(lib.CachedBmp_121 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
 	this.initialize(ss["ColourGrid_08_atlas_1"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -2866,8 +2866,8 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(9));
 
 	// Instructions
-	this.instance_1 = new lib.CachedBmp_116();
-	this.instance_1.setTransform(64.15,464.7,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_121();
+	this.instance_1.setTransform(61.55,466.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(9));
 
@@ -2958,7 +2958,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(263.3,331.8,73.39999999999998,163.39999999999998);
+p.nominalBounds = new cjs.Rectangle(261.6,331.8,77,161.89999999999998);
 // library properties:
 lib.properties = {
 	id: 'F9E2F03B988949F3BBD507917F055C6F',
