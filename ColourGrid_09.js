@@ -5,7 +5,7 @@ var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"ColourGrid_09_atlas_1", frames: [[1362,0,544,544],[680,546,544,544],[0,680,544,544],[546,1638,544,408],[1226,546,544,544],[1092,1638,544,408],[0,1226,544,544],[546,1092,544,544],[1092,1092,544,544],[680,0,680,544],[0,0,678,678]]},
 		{name:"ColourGrid_09_atlas_2", frames: [[0,1638,408,408],[274,956,408,408],[684,956,408,408],[1094,1094,408,408],[410,1366,408,408],[1504,1094,408,408],[1638,0,408,544],[0,410,408,544],[410,410,408,544],[820,1504,408,408],[1230,546,680,272],[0,956,272,680],[0,0,544,408],[820,410,408,544],[1230,1504,408,408],[1230,820,680,272],[546,0,544,408],[1640,1504,408,408],[1092,0,544,408]]},
-		{name:"ColourGrid_09_atlas_3", frames: [[1368,274,238,143],[1778,546,238,143],[1426,478,54,34],[1970,462,56,36],[1482,478,35,27],[0,0,544,272],[3670066,2228268,2228328,3342394],[958,548,272,408],[548,274,408,272],[0,820,272,408],[1638,0,272,544],[274,820,272,408],[1232,820,272,408],[274,1230,272,272],[2883639,6815778,3801122,3407922],[3276850,2228268,2228328,3342394],[2883634,6815778,3801122,3473453],[958,274,408,272],[-790853740,3,-1040187284,-788529043],[-445355662,-446147808,-803179419,-379095700],[1368,546,408,272],[1506,820,272,408],[546,0,544,272],[0,274,272,544],[548,822,272,408],[822,958,272,408],[274,274,272,544],[1092,0,544,272],[548,548,408,272],[1368,419,169,39],[1368,460,253,16],[1970,410,55,50],[0,1230,272,408],[1912,0,136,408],[-445357715,-512923345,796091751,-278106301],[-445357715,-512923345,796091751,-278106301],[1539,419,85,25],[1912,410,56,56],[1912,468,56,36],[1368,478,56,36],[1096,1230,554,55],[1652,1230,329,64]]}
+		{name:"ColourGrid_09_atlas_3", frames: [[1368,274,238,143],[1778,546,238,143],[1426,478,54,34],[1970,462,56,36],[1482,478,35,27],[0,0,544,272],[958,548,272,408],[548,274,408,272],[0,820,272,408],[1638,0,272,544],[274,820,272,408],[1232,820,272,408],[274,1230,272,272],[958,274,408,272],[1368,546,408,272],[1506,820,272,408],[546,0,544,272],[0,274,272,544],[548,822,272,408],[822,958,272,408],[274,274,272,544],[1092,0,544,272],[548,548,408,272],[1368,419,169,39],[1368,460,253,16],[1970,410,55,50],[0,1230,272,408],[1912,0,136,408],[1539,419,85,25],[1912,410,56,56],[1912,468,56,36],[1368,478,56,36],[1096,1230,554,55],[1524,1287,411,2],[1096,1287,426,64]]}
 ];
 
 
@@ -79,43 +79,43 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_57 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_56 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(7);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_55 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_54 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(9);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_53 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_52 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -129,35 +129,35 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_50 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(12);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_49 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_48 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(14);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_47 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(15);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_46 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -178,21 +178,21 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_43 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_42 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(18);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_41 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(19);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -206,7 +206,7 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_39 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -220,14 +220,14 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_37 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_36 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(22);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -248,21 +248,21 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_33 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(23);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_32 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(24);
+	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_31 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(25);
+	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -290,42 +290,42 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_27 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(26);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_26 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(27);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_25 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(28);
+	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(29);
+	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_23 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(30);
+	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_22 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(31);
+	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -339,14 +339,14 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_20 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(32);
+	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_19 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(33);
+	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -387,8 +387,8 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_13 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(34);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -415,8 +415,8 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_9 = function() {
-	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(35);
+	this.initialize(ss["ColourGrid_09_atlas_2"]);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -430,14 +430,14 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_7 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(36);
+	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_6 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(37);
+	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -451,28 +451,35 @@ lib.ssMetadata = [
 
 (lib.CachedBmp_4 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(38);
+	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(39);
+	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_2 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(40);
+	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_66 = function() {
 	this.initialize(ss["ColourGrid_09_atlas_3"]);
-	this.gotoAndStop(41);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_65 = function() {
+	this.initialize(ss["ColourGrid_09_atlas_3"]);
+	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1979,53 +1986,53 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// _
-	this.shape_5_shape_7 = new lib.Shape_5_Shape_7();
-	this.shape_5_shape_7.name = "shape_5_shape_7";
-	this.shape_5_shape_7.setTransform(0.1,136.1,1,1,0,0,0,136.1,136.1);
+	this.grid_4x4_shape_5_shape_7 = new lib.Shape_5_Shape_7();
+	this.grid_4x4_shape_5_shape_7.name = "grid_4x4_shape_5_shape_7";
+	this.grid_4x4_shape_5_shape_7.setTransform(0.1,136.1,1,1,0,0,0,136.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_7).wait(1));
-
-	// _
-	this.shape_5_shape_6 = new lib.Shape_5_Shape_6();
-	this.shape_5_shape_6.name = "shape_5_shape_6";
-	this.shape_5_shape_6.setTransform(0.1,136,1,1,0,0,0,136.1,68);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_7).wait(1));
 
 	// _
-	this.shape_5_shape_5 = new lib.Shape_5_Shape_5();
-	this.shape_5_shape_5.name = "shape_5_shape_5";
-	this.shape_5_shape_5.setTransform(-34,102,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_5_shape_6 = new lib.Shape_5_Shape_6();
+	this.grid_4x4_shape_5_shape_6.name = "grid_4x4_shape_5_shape_6";
+	this.grid_4x4_shape_5_shape_6.setTransform(0.1,136,1,1,0,0,0,136.1,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_5).wait(1));
-
-	// _
-	this.shape_5_shape_4 = new lib.Shape_5_Shape_4();
-	this.shape_5_shape_4.name = "shape_5_shape_4";
-	this.shape_5_shape_4.setTransform(68,102,1,1,0,0,0,68,102);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_6).wait(1));
 
 	// _
-	this.shape_5_shape_3 = new lib.Shape_5_Shape_3();
-	this.shape_5_shape_3.name = "shape_5_shape_3";
-	this.shape_5_shape_3.setTransform(34,136,1,1,0,0,0,102,68);
+	this.grid_4x4_shape_5_shape_5 = new lib.Shape_5_Shape_5();
+	this.grid_4x4_shape_5_shape_5.name = "grid_4x4_shape_5_shape_5";
+	this.grid_4x4_shape_5_shape_5.setTransform(-34,102,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_5).wait(1));
 
 	// _
-	this.shape_5_shape_2 = new lib.Shape_5_Shape_2();
-	this.shape_5_shape_2.name = "shape_5_shape_2";
-	this.shape_5_shape_2.setTransform(68,170,1,1,0,0,0,68,102);
+	this.grid_4x4_shape_5_shape_4 = new lib.Shape_5_Shape_4();
+	this.grid_4x4_shape_5_shape_4.name = "grid_4x4_shape_5_shape_4";
+	this.grid_4x4_shape_5_shape_4.setTransform(68,102,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_4).wait(1));
+
+	// _
+	this.grid_4x4_shape_5_shape_3 = new lib.Shape_5_Shape_3();
+	this.grid_4x4_shape_5_shape_3.name = "grid_4x4_shape_5_shape_3";
+	this.grid_4x4_shape_5_shape_3.setTransform(34,136,1,1,0,0,0,102,68);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_3).wait(1));
+
+	// _
+	this.grid_4x4_shape_5_shape_2 = new lib.Shape_5_Shape_2();
+	this.grid_4x4_shape_5_shape_2.name = "grid_4x4_shape_5_shape_2";
+	this.grid_4x4_shape_5_shape_2.setTransform(68,170,1,1,0,0,0,68,102);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_5_shape_1 = new lib.Shape_5_Shape_1();
-	this.shape_5_shape_1.name = "shape_5_shape_1";
-	this.shape_5_shape_1.setTransform(68,136.1,1,1,0,0,0,68,136.1);
+	this.grid_4x4_shape_5_shape_1 = new lib.Shape_5_Shape_1();
+	this.grid_4x4_shape_5_shape_1.name = "grid_4x4_shape_5_shape_1";
+	this.grid_4x4_shape_5_shape_1.setTransform(68,136.1,1,1,0,0,0,68,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2060,53 +2067,53 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// _
-	this.shape_4_shape_7 = new lib.Shape_4_Shape_7();
-	this.shape_4_shape_7.name = "shape_4_shape_7";
-	this.shape_4_shape_7.setTransform(68,102,1,1,0,0,0,68,102);
+	this.grid_4x4_shape_4_shape_7 = new lib.Shape_4_Shape_7();
+	this.grid_4x4_shape_4_shape_7.name = "grid_4x4_shape_4_shape_7";
+	this.grid_4x4_shape_4_shape_7.setTransform(68,102,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_7).wait(1));
-
-	// _
-	this.shape_4_shape_6 = new lib.Shape_4_Shape_6();
-	this.shape_4_shape_6.name = "shape_4_shape_6";
-	this.shape_4_shape_6.setTransform(68.1,136.1,1,1,0,0,0,136.1,136.1);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_7).wait(1));
 
 	// _
-	this.shape_4_shape_5 = new lib.Shape_4_Shape_5();
-	this.shape_4_shape_5.name = "shape_4_shape_5";
-	this.shape_4_shape_5.setTransform(0,102,1,1,0,0,0,68,102);
+	this.grid_4x4_shape_4_shape_6 = new lib.Shape_4_Shape_6();
+	this.grid_4x4_shape_4_shape_6.name = "grid_4x4_shape_4_shape_6";
+	this.grid_4x4_shape_4_shape_6.setTransform(68.1,136.1,1,1,0,0,0,136.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_5).wait(1));
-
-	// _
-	this.shape_4_shape_4 = new lib.Shape_4_Shape_4();
-	this.shape_4_shape_4.name = "shape_4_shape_4";
-	this.shape_4_shape_4.setTransform(68,136,1,1,0,0,0,68,68);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_6).wait(1));
 
 	// _
-	this.shape_4_shape_3 = new lib.Shape_4_Shape_3();
-	this.shape_4_shape_3.name = "shape_4_shape_3";
-	this.shape_4_shape_3.setTransform(102,102,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_4_shape_5 = new lib.Shape_4_Shape_5();
+	this.grid_4x4_shape_4_shape_5.name = "grid_4x4_shape_4_shape_5";
+	this.grid_4x4_shape_4_shape_5.setTransform(0,102,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_5).wait(1));
 
 	// _
-	this.shape_4_shape_2 = new lib.Shape_4_Shape_2();
-	this.shape_4_shape_2.name = "shape_4_shape_2";
-	this.shape_4_shape_2.setTransform(34,102,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_4_shape_4 = new lib.Shape_4_Shape_4();
+	this.grid_4x4_shape_4_shape_4.name = "grid_4x4_shape_4_shape_4";
+	this.grid_4x4_shape_4_shape_4.setTransform(68,136,1,1,0,0,0,68,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_4).wait(1));
+
+	// _
+	this.grid_4x4_shape_4_shape_3 = new lib.Shape_4_Shape_3();
+	this.grid_4x4_shape_4_shape_3.name = "grid_4x4_shape_4_shape_3";
+	this.grid_4x4_shape_4_shape_3.setTransform(102,102,1,1,0,0,0,102,102);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_3).wait(1));
+
+	// _
+	this.grid_4x4_shape_4_shape_2 = new lib.Shape_4_Shape_2();
+	this.grid_4x4_shape_4_shape_2.name = "grid_4x4_shape_4_shape_2";
+	this.grid_4x4_shape_4_shape_2.setTransform(34,102,1,1,0,0,0,102,102);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_4_shape_1 = new lib.Shape_4_Shape_1();
-	this.shape_4_shape_1.name = "shape_4_shape_1";
-	this.shape_4_shape_1.setTransform(102,102,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_4_shape_1 = new lib.Shape_4_Shape_1();
+	this.grid_4x4_shape_4_shape_1.name = "grid_4x4_shape_4_shape_1";
+	this.grid_4x4_shape_4_shape_1.setTransform(102,102,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2141,53 +2148,53 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// _
-	this.shape_3_shape_7 = new lib.Shape_3_Shape_7();
-	this.shape_3_shape_7.name = "shape_3_shape_7";
-	this.shape_3_shape_7.setTransform(136.1,0.1,1,1,0,0,0,136.1,136.1);
+	this.grid_4x4_shape_3_shape_7 = new lib.Shape_3_Shape_7();
+	this.grid_4x4_shape_3_shape_7.name = "grid_4x4_shape_3_shape_7";
+	this.grid_4x4_shape_3_shape_7.setTransform(136.1,0.1,1,1,0,0,0,136.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_7).wait(1));
-
-	// _
-	this.shape_3_shape_6 = new lib.Shape_3_Shape_6();
-	this.shape_3_shape_6.name = "shape_3_shape_6";
-	this.shape_3_shape_6.setTransform(136.1,34,1,1,0,0,0,136.1,102);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_7).wait(1));
 
 	// _
-	this.shape_3_shape_5 = new lib.Shape_3_Shape_5();
-	this.shape_3_shape_5.name = "shape_3_shape_5";
-	this.shape_3_shape_5.setTransform(102,0,1,1,0,0,0,102,68);
+	this.grid_4x4_shape_3_shape_6 = new lib.Shape_3_Shape_6();
+	this.grid_4x4_shape_3_shape_6.name = "grid_4x4_shape_3_shape_6";
+	this.grid_4x4_shape_3_shape_6.setTransform(136.1,34,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_5).wait(1));
-
-	// _
-	this.shape_3_shape_4 = new lib.Shape_3_Shape_4();
-	this.shape_3_shape_4.name = "shape_3_shape_4";
-	this.shape_3_shape_4.setTransform(102,34,1,1,0,0,0,102,102);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_6).wait(1));
 
 	// _
-	this.shape_3_shape_3 = new lib.Shape_3_Shape_3();
-	this.shape_3_shape_3.name = "shape_3_shape_3";
-	this.shape_3_shape_3.setTransform(170,34,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_3_shape_5 = new lib.Shape_3_Shape_5();
+	this.grid_4x4_shape_3_shape_5.name = "grid_4x4_shape_3_shape_5";
+	this.grid_4x4_shape_3_shape_5.setTransform(102,0,1,1,0,0,0,102,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_5).wait(1));
 
 	// _
-	this.shape_3_shape_2 = new lib.Shape_3_Shape_2();
-	this.shape_3_shape_2.name = "shape_3_shape_2";
-	this.shape_3_shape_2.setTransform(136.55,0.05,1,1,0,0,0,136.1,136.1);
+	this.grid_4x4_shape_3_shape_4 = new lib.Shape_3_Shape_4();
+	this.grid_4x4_shape_3_shape_4.name = "grid_4x4_shape_3_shape_4";
+	this.grid_4x4_shape_3_shape_4.setTransform(102,34,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_4).wait(1));
+
+	// _
+	this.grid_4x4_shape_3_shape_3 = new lib.Shape_3_Shape_3();
+	this.grid_4x4_shape_3_shape_3.name = "grid_4x4_shape_3_shape_3";
+	this.grid_4x4_shape_3_shape_3.setTransform(170,34,1,1,0,0,0,102,102);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_3).wait(1));
+
+	// _
+	this.grid_4x4_shape_3_shape_2 = new lib.Shape_3_Shape_2();
+	this.grid_4x4_shape_3_shape_2.name = "grid_4x4_shape_3_shape_2";
+	this.grid_4x4_shape_3_shape_2.setTransform(136.55,0.05,1,1,0,0,0,136.1,136.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_3_shape_1 = new lib.Shape_3_Shape_1();
-	this.shape_3_shape_1.name = "shape_3_shape_1";
-	this.shape_3_shape_1.setTransform(102,68,1,1,0,0,0,102,68);
+	this.grid_4x4_shape_3_shape_1 = new lib.Shape_3_Shape_1();
+	this.grid_4x4_shape_3_shape_1.name = "grid_4x4_shape_3_shape_1";
+	this.grid_4x4_shape_3_shape_1.setTransform(102,68,1,1,0,0,0,102,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2222,53 +2229,53 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// _
-	this.shape_2_shape_7 = new lib.Shape_2_Shape_7();
-	this.shape_2_shape_7.name = "shape_2_shape_7";
-	this.shape_2_shape_7.setTransform(34,0.1,1,1,0,0,0,102,136.1);
+	this.grid_4x4_shape_2_shape_7 = new lib.Shape_2_Shape_7();
+	this.grid_4x4_shape_2_shape_7.name = "grid_4x4_shape_2_shape_7";
+	this.grid_4x4_shape_2_shape_7.setTransform(34,0.1,1,1,0,0,0,102,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_7).wait(1));
-
-	// _
-	this.shape_2_shape_6 = new lib.Shape_2_Shape_6();
-	this.shape_2_shape_6.name = "shape_2_shape_6";
-	this.shape_2_shape_6.setTransform(136,-34,1,1,0,0,0,68,102);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_7).wait(1));
 
 	// _
-	this.shape_2_shape_5 = new lib.Shape_2_Shape_5();
-	this.shape_2_shape_5.name = "shape_2_shape_5";
-	this.shape_2_shape_5.setTransform(68.1,68,1,1,0,0,0,136.1,68);
+	this.grid_4x4_shape_2_shape_6 = new lib.Shape_2_Shape_6();
+	this.grid_4x4_shape_2_shape_6.name = "grid_4x4_shape_2_shape_6";
+	this.grid_4x4_shape_2_shape_6.setTransform(136,-34,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_5).wait(1));
-
-	// _
-	this.shape_2_shape_4 = new lib.Shape_2_Shape_4();
-	this.shape_2_shape_4.name = "shape_2_shape_4";
-	this.shape_2_shape_4.setTransform(68.1,34,1,1,0,0,0,136.1,102);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_6).wait(1));
 
 	// _
-	this.shape_2_shape_3 = new lib.Shape_2_Shape_3();
-	this.shape_2_shape_3.name = "shape_2_shape_3";
-	this.shape_2_shape_3.setTransform(34,0.1,1,1,0,0,0,102,136.1);
+	this.grid_4x4_shape_2_shape_5 = new lib.Shape_2_Shape_5();
+	this.grid_4x4_shape_2_shape_5.name = "grid_4x4_shape_2_shape_5";
+	this.grid_4x4_shape_2_shape_5.setTransform(68.1,68,1,1,0,0,0,136.1,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_3).wait(1));
-
-	// _
-	this.shape_2_shape_2 = new lib.Shape_2_Shape_2();
-	this.shape_2_shape_2.name = "shape_2_shape_2";
-	this.shape_2_shape_2.setTransform(0,0.05,1,1,0,0,0,68,136.1);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_5).wait(1));
 
 	// _
-	this.shape_2_shape_1 = new lib.Shape_2_Shape_1();
-	this.shape_2_shape_1.name = "shape_2_shape_1";
-	this.shape_2_shape_1.setTransform(68,34,1,1,0,0,0,68,102);
+	this.grid_4x4_shape_2_shape_4 = new lib.Shape_2_Shape_4();
+	this.grid_4x4_shape_2_shape_4.name = "grid_4x4_shape_2_shape_4";
+	this.grid_4x4_shape_2_shape_4.setTransform(68.1,34,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_4).wait(1));
+
+	// _
+	this.grid_4x4_shape_2_shape_3 = new lib.Shape_2_Shape_3();
+	this.grid_4x4_shape_2_shape_3.name = "grid_4x4_shape_2_shape_3";
+	this.grid_4x4_shape_2_shape_3.setTransform(34,0.1,1,1,0,0,0,102,136.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_3).wait(1));
+
+	// _
+	this.grid_4x4_shape_2_shape_2 = new lib.Shape_2_Shape_2();
+	this.grid_4x4_shape_2_shape_2.name = "grid_4x4_shape_2_shape_2";
+	this.grid_4x4_shape_2_shape_2.setTransform(0,0.05,1,1,0,0,0,68,136.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_2).wait(1));
+
+	// _
+	this.grid_4x4_shape_2_shape_1 = new lib.Shape_2_Shape_1();
+	this.grid_4x4_shape_2_shape_1.name = "grid_4x4_shape_2_shape_1";
+	this.grid_4x4_shape_2_shape_1.setTransform(68,34,1,1,0,0,0,68,102);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2303,53 +2310,53 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// _
-	this.shape_1_shape_7 = new lib.Shape_1_Shape_7();
-	this.shape_1_shape_7.name = "shape_1_shape_7";
-	this.shape_1_shape_7.setTransform(68,102,1,1,0,0,0,68,102);
+	this.grid_4x4_shape_1_shape_7 = new lib.Shape_1_Shape_7();
+	this.grid_4x4_shape_1_shape_7.name = "grid_4x4_shape_1_shape_7";
+	this.grid_4x4_shape_1_shape_7.setTransform(68,102,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_7).wait(1));
-
-	// _
-	this.shape_1_shape_6 = new lib.Shape_1_Shape_6();
-	this.shape_1_shape_6.name = "shape_1_shape_6";
-	this.shape_1_shape_6.setTransform(136.1,136.1,1,1,0,0,0,136.1,136.1);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_7).wait(1));
 
 	// _
-	this.shape_1_shape_5 = new lib.Shape_1_Shape_5();
-	this.shape_1_shape_5.name = "shape_1_shape_5";
-	this.shape_1_shape_5.setTransform(204.1,68,1,1,0,0,0,136.1,68);
+	this.grid_4x4_shape_1_shape_6 = new lib.Shape_1_Shape_6();
+	this.grid_4x4_shape_1_shape_6.name = "grid_4x4_shape_1_shape_6";
+	this.grid_4x4_shape_1_shape_6.setTransform(136.1,136.1,1,1,0,0,0,136.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_6).wait(1));
+
+	// _
+	this.grid_4x4_shape_1_shape_5 = new lib.Shape_1_Shape_5();
+	this.grid_4x4_shape_1_shape_5.name = "grid_4x4_shape_1_shape_5";
+	this.grid_4x4_shape_1_shape_5.setTransform(204.1,68,1,1,0,0,0,136.1,68);
+
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_5).wait(1));
 
 	// Layer_1
-	this.shape_1_shape_4 = new lib.Shape_1_Shape_4();
-	this.shape_1_shape_4.name = "shape_1_shape_4";
-	this.shape_1_shape_4.setTransform(170.05,170.05,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_1_shape_4 = new lib.Shape_1_Shape_4();
+	this.grid_4x4_shape_1_shape_4.name = "grid_4x4_shape_1_shape_4";
+	this.grid_4x4_shape_1_shape_4.setTransform(170.05,170.05,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_4).wait(1));
 
 	// Layer_4
-	this.shape_1_shape_3 = new lib.Shape_1_Shape_3();
-	this.shape_1_shape_3.name = "shape_1_shape_3";
-	this.shape_1_shape_3.setTransform(170,102,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_1_shape_3 = new lib.Shape_1_Shape_3();
+	this.grid_4x4_shape_1_shape_3.name = "grid_4x4_shape_1_shape_3";
+	this.grid_4x4_shape_1_shape_3.setTransform(170,102,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_3).wait(1));
 
 	// Layer_3
-	this.shape_1_shape_2 = new lib.Shape_1_Shape_2();
-	this.shape_1_shape_2.name = "shape_1_shape_2";
-	this.shape_1_shape_2.setTransform(136,136.1,1,1,0,0,0,136,136.1);
+	this.grid_4x4_shape_1_shape_2 = new lib.Shape_1_Shape_2();
+	this.grid_4x4_shape_1_shape_2.name = "grid_4x4_shape_1_shape_2";
+	this.grid_4x4_shape_1_shape_2.setTransform(136,136.1,1,1,0,0,0,136,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_2).wait(1));
 
 	// Layer_2
-	this.shape_1_shape_1 = new lib.Shape_1_Shape_1();
-	this.shape_1_shape_1.name = "shape_1_shape_1";
-	this.shape_1_shape_1.setTransform(68,68,1,1,0,0,0,68,68);
+	this.grid_4x4_shape_1_shape_1 = new lib.Shape_1_Shape_1();
+	this.grid_4x4_shape_1_shape_1.name = "grid_4x4_shape_1_shape_1";
+	this.grid_4x4_shape_1_shape_1.setTransform(68,68,1,1,0,0,0,68,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2384,39 +2391,39 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// shape_1
-	this.shape_1 = new lib.Shape_1();
-	this.shape_1.name = "shape_1";
-	this.shape_1.setTransform(68,68,1,1,0,0,0,68,68);
+	this.grid_4x4_shape_1 = new lib.Shape_1();
+	this.grid_4x4_shape_1.name = "grid_4x4_shape_1";
+	this.grid_4x4_shape_1.setTransform(68,68,1,1,0,0,0,68,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_1).wait(1));
 
 	// shape_2
-	this.shape_2 = new lib.Shape_2();
-	this.shape_2.name = "shape_2";
-	this.shape_2.setTransform(136.05,204.05,1,1,0,0,0,68,68);
+	this.grid_4x4_shape_2 = new lib.Shape_2();
+	this.grid_4x4_shape_2.name = "grid_4x4_shape_2";
+	this.grid_4x4_shape_2.setTransform(136.05,204.05,1,1,0,0,0,68,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_2).wait(1));
 
 	// shape_3
-	this.shape_3 = new lib.Shape_3();
-	this.shape_3.name = "shape_3";
-	this.shape_3.setTransform(102,204.05,1,1,0,0,0,102,68);
+	this.grid_4x4_shape_3 = new lib.Shape_3();
+	this.grid_4x4_shape_3.name = "grid_4x4_shape_3";
+	this.grid_4x4_shape_3.setTransform(102,204.05,1,1,0,0,0,102,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_3).wait(1));
 
 	// shape_4
-	this.shape_4 = new lib.Shape_4();
-	this.shape_4.name = "shape_4";
-	this.shape_4.setTransform(170,102,1,1,0,0,0,102,102);
+	this.grid_4x4_shape_4 = new lib.Shape_4();
+	this.grid_4x4_shape_4.name = "grid_4x4_shape_4";
+	this.grid_4x4_shape_4.setTransform(170,102,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_4).wait(1));
 
 	// shape_5
-	this.shape_5 = new lib.Shape_5();
-	this.shape_5.name = "shape_5";
-	this.shape_5.setTransform(204.05,136.1,1,1,0,0,0,68,136.1);
+	this.grid_4x4_shape_5 = new lib.Shape_5();
+	this.grid_4x4_shape_5.name = "grid_4x4_shape_5";
+	this.grid_4x4_shape_5.setTransform(204.05,136.1,1,1,0,0,0,68,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_4x4_shape_5).wait(1));
 
 	// Base
 	this.instance = new lib.Base();
@@ -2441,18 +2448,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_7_shape_2 = new lib.G5x5_Shape_7_Shape_2();
-	this.shape_7_shape_2.name = "shape_7_shape_2";
-	this.shape_7_shape_2.setTransform(33.95,238,1,1,0,0,0,102,102);
+	this.grid_5x5_shape_7_shape_2 = new lib.G5x5_Shape_7_Shape_2();
+	this.grid_5x5_shape_7_shape_2.name = "grid_5x5_shape_7_shape_2";
+	this.grid_5x5_shape_7_shape_2.setTransform(33.95,238,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_7_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_7_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_7_shape_1 = new lib.G5x5_Shape_7_Shape_1();
-	this.shape_7_shape_1.name = "shape_7_shape_1";
-	this.shape_7_shape_1.setTransform(68,102,1,1,0,0,0,68,102);
+	this.grid_5x5_shape_7_shape_1 = new lib.G5x5_Shape_7_Shape_1();
+	this.grid_5x5_shape_7_shape_1.name = "grid_5x5_shape_7_shape_1";
+	this.grid_5x5_shape_7_shape_1.setTransform(68,102,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_7_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_7_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2471,18 +2478,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_6_shape_2 = new lib.G5x5_Shape_6_Shape_2();
-	this.shape_6_shape_2.name = "shape_6_shape_2";
-	this.shape_6_shape_2.setTransform(101.85,-34.1,1,1,0,0,0,34,102);
+	this.grid_5x5_shape_6_shape_2 = new lib.G5x5_Shape_6_Shape_2();
+	this.grid_5x5_shape_6_shape_2.name = "grid_5x5_shape_6_shape_2";
+	this.grid_5x5_shape_6_shape_2.setTransform(101.85,-34.1,1,1,0,0,0,34,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_6_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_6_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_6_shape_1 = new lib.G5x5_Shape_6_Shape_1();
-	this.shape_6_shape_1.name = "shape_6_shape_1";
-	this.shape_6_shape_1.setTransform(170.1,68,1,1,0,0,0,170.1,68);
+	this.grid_5x5_shape_6_shape_1 = new lib.G5x5_Shape_6_Shape_1();
+	this.grid_5x5_shape_6_shape_1.name = "grid_5x5_shape_6_shape_1";
+	this.grid_5x5_shape_6_shape_1.setTransform(170.1,68,1,1,0,0,0,170.1,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_6_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_6_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2501,18 +2508,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_5_shape_2 = new lib.G5x5_Shape_5_Shape_2();
-	this.shape_5_shape_2.name = "shape_5_shape_2";
-	this.shape_5_shape_2.setTransform(272,170.1,1,1,0,0,0,68,170.1);
+	this.grid_5x5_shape_5_shape_2 = new lib.G5x5_Shape_5_Shape_2();
+	this.grid_5x5_shape_5_shape_2.name = "grid_5x5_shape_5_shape_2";
+	this.grid_5x5_shape_5_shape_2.setTransform(272,170.1,1,1,0,0,0,68,170.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_5_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_5_shape_1 = new lib.G5x5_Shape_5_Shape_1();
-	this.shape_5_shape_1.name = "shape_5_shape_1";
-	this.shape_5_shape_1.setTransform(136.1,102,1,1,0,0,0,136.1,102);
+	this.grid_5x5_shape_5_shape_1 = new lib.G5x5_Shape_5_Shape_1();
+	this.grid_5x5_shape_5_shape_1.name = "grid_5x5_shape_5_shape_1";
+	this.grid_5x5_shape_5_shape_1.setTransform(136.1,102,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_5_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2531,18 +2538,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_4_shape_2 = new lib.G5x5_Shape_4_Shape_2();
-	this.shape_4_shape_2.name = "shape_4_shape_2";
-	this.shape_4_shape_2.setTransform(136.1,136.1,1,1,0,0,0,136.1,136.1);
+	this.grid_5x5_shape_4_shape_2 = new lib.G5x5_Shape_4_Shape_2();
+	this.grid_5x5_shape_4_shape_2.name = "grid_5x5_shape_4_shape_2";
+	this.grid_5x5_shape_4_shape_2.setTransform(136.1,136.1,1,1,0,0,0,136.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_4_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_4_shape_1 = new lib.G5x5_Shape_4_Shape_1();
-	this.shape_4_shape_1.name = "shape_4_shape_1";
-	this.shape_4_shape_1.setTransform(102,136.1,1,1,0,0,0,102,136.1);
+	this.grid_5x5_shape_4_shape_1 = new lib.G5x5_Shape_4_Shape_1();
+	this.grid_5x5_shape_4_shape_1.name = "grid_5x5_shape_4_shape_1";
+	this.grid_5x5_shape_4_shape_1.setTransform(102,136.1,1,1,0,0,0,102,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_4_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2561,18 +2568,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_3_shape_2 = new lib.G5x5_Shape_3_Shape_2();
-	this.shape_3_shape_2.name = "shape_3_shape_2";
-	this.shape_3_shape_2.setTransform(102,102,1,1,0,0,0,102,102);
+	this.grid_5x5_shape_3_shape_2 = new lib.G5x5_Shape_3_Shape_2();
+	this.grid_5x5_shape_3_shape_2.name = "grid_5x5_shape_3_shape_2";
+	this.grid_5x5_shape_3_shape_2.setTransform(102,102,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_3_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_3_shape_1 = new lib.G5x5_Shape_3_Shape_1();
-	this.shape_3_shape_1.name = "shape_3_shape_1";
-	this.shape_3_shape_1.setTransform(170.1,68,1,1,0,0,0,170.1,68);
+	this.grid_5x5_shape_3_shape_1 = new lib.G5x5_Shape_3_Shape_1();
+	this.grid_5x5_shape_3_shape_1.name = "grid_5x5_shape_3_shape_1";
+	this.grid_5x5_shape_3_shape_1.setTransform(170.1,68,1,1,0,0,0,170.1,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_3_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2591,18 +2598,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_2_shape_2 = new lib.G5x5_Shape_2_Shape_2();
-	this.shape_2_shape_2.name = "shape_2_shape_2";
-	this.shape_2_shape_2.setTransform(136.1,170.05,1,1,0,0,0,136.1,102);
+	this.grid_5x5_shape_2_shape_2 = new lib.G5x5_Shape_2_Shape_2();
+	this.grid_5x5_shape_2_shape_2.name = "grid_5x5_shape_2_shape_2";
+	this.grid_5x5_shape_2_shape_2.setTransform(136.1,170.05,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_2_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_2_shape_1 = new lib.G5x5_Shape_2_Shape_1();
-	this.shape_2_shape_1.name = "shape_2_shape_1";
-	this.shape_2_shape_1.setTransform(170.1,136.1,1,1,0,0,0,170.1,136.1);
+	this.grid_5x5_shape_2_shape_1 = new lib.G5x5_Shape_2_Shape_1();
+	this.grid_5x5_shape_2_shape_1.name = "grid_5x5_shape_2_shape_1";
+	this.grid_5x5_shape_2_shape_1.setTransform(170.1,136.1,1,1,0,0,0,170.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_2_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2621,18 +2628,18 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// _
-	this.shape_1_shape_2 = new lib.G5x5_Shape_1_Shape_2();
-	this.shape_1_shape_2.name = "shape_1_shape_2";
-	this.shape_1_shape_2.setTransform(170.05,33.95,1,1,0,0,0,102,102);
+	this.grid_5x5_shape_1_shape_2 = new lib.G5x5_Shape_1_Shape_2();
+	this.grid_5x5_shape_1_shape_2.name = "grid_5x5_shape_1_shape_2";
+	this.grid_5x5_shape_1_shape_2.setTransform(170.05,33.95,1,1,0,0,0,102,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_1_shape_2).wait(1));
 
 	// Layer_1
-	this.shape_1_shape_1 = new lib.G5x5_Shape_1_Shape_1();
-	this.shape_1_shape_1.name = "shape_1_shape_1";
-	this.shape_1_shape_1.setTransform(136.1,102,1,1,0,0,0,136.1,102);
+	this.grid_5x5_shape_1_shape_1 = new lib.G5x5_Shape_1_Shape_1();
+	this.grid_5x5_shape_1_shape_1.name = "grid_5x5_shape_1_shape_1";
+	this.grid_5x5_shape_1_shape_1.setTransform(136.1,102,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1_shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_1_shape_1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2718,53 +2725,53 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
 	// Shape_1
-	this.shape_1 = new lib.G5x5_Shape_1();
-	this.shape_1.name = "shape_1";
-	this.shape_1.setTransform(204.1,170,1,1,0,0,0,136.1,102);
+	this.grid_5x5_shape_1 = new lib.G5x5_Shape_1();
+	this.grid_5x5_shape_1.name = "grid_5x5_shape_1";
+	this.grid_5x5_shape_1.setTransform(204.1,170,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_1).wait(1));
 
 	// Shape_2
-	this.shape_2 = new lib.G5x5_Shape_2();
-	this.shape_2.name = "shape_2";
-	this.shape_2.setTransform(170.1,204.1,1,1,0,0,0,170.1,136.1);
+	this.grid_5x5_shape_2 = new lib.G5x5_Shape_2();
+	this.grid_5x5_shape_2.name = "grid_5x5_shape_2";
+	this.grid_5x5_shape_2.setTransform(170.1,204.1,1,1,0,0,0,170.1,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_2).wait(1));
 
 	// Shape_3
-	this.shape_3 = new lib.G5x5_Shape_3();
-	this.shape_3.name = "shape_3";
-	this.shape_3.setTransform(170.1,170.1,1,1,0,0,0,170.1,170.1);
+	this.grid_5x5_shape_3 = new lib.G5x5_Shape_3();
+	this.grid_5x5_shape_3.name = "grid_5x5_shape_3";
+	this.grid_5x5_shape_3.setTransform(170.1,170.1,1,1,0,0,0,170.1,170.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_3).wait(1));
 
 	// Shape_4
-	this.shape_4 = new lib.G5x5_Shape_4();
-	this.shape_4.name = "shape_4";
-	this.shape_4.setTransform(102,204.1,1,1,0,0,0,102,136.1);
+	this.grid_5x5_shape_4 = new lib.G5x5_Shape_4();
+	this.grid_5x5_shape_4.name = "grid_5x5_shape_4";
+	this.grid_5x5_shape_4.setTransform(102,204.1,1,1,0,0,0,102,136.1);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_4).wait(1));
 
 	// Shape_5
-	this.shape_5 = new lib.G5x5_Shape_5();
-	this.shape_5.name = "shape_5";
-	this.shape_5.setTransform(136.1,102,1,1,0,0,0,136.1,102);
+	this.grid_5x5_shape_5 = new lib.G5x5_Shape_5();
+	this.grid_5x5_shape_5.name = "grid_5x5_shape_5";
+	this.grid_5x5_shape_5.setTransform(136.1,102,1,1,0,0,0,136.1,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_5).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_5).wait(1));
 
 	// Shape_6
-	this.shape_6 = new lib.G5x5_Shape_6();
-	this.shape_6.name = "shape_6";
-	this.shape_6.setTransform(170.1,272.1,1,1,0,0,0,170.1,68);
+	this.grid_5x5_shape_6 = new lib.G5x5_Shape_6();
+	this.grid_5x5_shape_6.name = "grid_5x5_shape_6";
+	this.grid_5x5_shape_6.setTransform(170.1,272.1,1,1,0,0,0,170.1,68);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_6).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_6).wait(1));
 
 	// Shape_7
-	this.shape_7 = new lib.G5x5_Shape_7();
-	this.shape_7.name = "shape_7";
-	this.shape_7.setTransform(272.1,102,1,1,0,0,0,68,102);
+	this.grid_5x5_shape_7 = new lib.G5x5_Shape_7();
+	this.grid_5x5_shape_7.name = "grid_5x5_shape_7";
+	this.grid_5x5_shape_7.setTransform(272.1,102,1,1,0,0,0,68,102);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_7).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.grid_5x5_shape_7).wait(1));
 
 	// Base
 	this.instance = new lib.Base();
@@ -2877,25 +2884,27 @@ if (reversed == null) { reversed = false; }
 		this.resetShapeOrder = function() {
 			//console.log("this.shapeOrder[0] = ", this.shapeOrder[0]);
 			//console.log("numOfColours = ", this.gridArray[this.whichGrid][1]);
+			let whichGd = this.gridArray[this.whichGrid][0];
 			let y = this.gridArray[this.whichGrid][1]; // this.numOfColours;
 			for (let x = 1; x <= this.gridArray[this.whichGrid][1]; x++) {
-				//console.log("Number of children for shape_", this.shapeOrder[x - 1], " = ", this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.numChildren);
-				this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].parent.setChildIndex(this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]], y--);
+				//console.log("Number of children for shape_", this.shapeOrder[x - 1], " = ", this[whichGd]["shape_" + this.shapeOrder[x - 1]].parent.numChildren);
+				this[whichGd][whichGd + "_shape_" + this.shapeOrder[x - 1]].parent.setChildIndex(this[whichGd][whichGd + "_shape_" + this.shapeOrder[x - 1]], y--);
 				setTimeout(() => {
-					this[this.gridArray[this.whichGrid][0]]["shape_" + this.shapeOrder[x - 1]].visible = true;
+					this[whichGd][whichGd + "_shape_" + this.shapeOrder[x - 1]].visible = true;
 				}, x * 20);
 			}
 		};
 		
 		this.randomShapes = function() {
+			let whichGd = this.gridArray[this.whichGrid][0];
 			var randomShape = Math.floor(Math.random() * this.gridArray[this.whichGrid][2]) + 1;
 			for (let shapeNum = 1; shapeNum <= this.gridArray[this.whichGrid][1]; shapeNum++) { 
 				for (let shapeShapeNum = 1; shapeShapeNum <= this.gridArray[this.whichGrid][2]; shapeShapeNum++) {
 					//console.log("shape_", shapeNum, "_shape_", shapeShapeNum);
 					if (shapeShapeNum != randomShape) {
-						this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum]["shape_" + shapeNum + "_shape_" + shapeShapeNum].visible = false;
+						this[whichGd][whichGd + "_shape_" + shapeNum][whichGd + "_shape_" + shapeNum + "_shape_" + shapeShapeNum].visible = false;
 					} else {
-						this[this.gridArray[this.whichGrid][0]]["shape_" + shapeNum]["shape_" + shapeNum + "_shape_" + shapeShapeNum].visible = true;
+						this[whichGd][whichGd + "_shape_" + shapeNum][whichGd + "_shape_" + shapeNum + "_shape_" + shapeShapeNum].visible = true;
 						//console.log("Turning on: shape_", shapeNum, "_shape_", shapeShapeNum);
 					}
 				}
@@ -2938,9 +2947,7 @@ if (reversed == null) { reversed = false; }
 		}
 		
 		this.finishUp = function(winResult) {
-			let thisGrid = this.whichGrid;
-			let thisArray = this.gridArray;
-			this[thisArray[thisGrid][0]].visible = false;
+			this.gridArray[this.whichGrid][0].visible = false;
 			if (winResult) {
 				this.youWin.visible = true;
 				this.playAgain.visible = true;
@@ -2956,9 +2963,10 @@ if (reversed == null) { reversed = false; }
 			//console.log("shapeDrop function called");
 			let thisGrid = this.whichGrid;
 			let thisArray = this.gridArray;
+			let whichGd = thisArray[thisGrid][0];
 			for (let x = 1; x <= thisArray[thisGrid][1]; x++) {
 				setTimeout(() => {
-					this[thisArray[thisGrid][0]]["shape_" + x].visible = false;
+					this[whichGd][whichGd + "_shape_" + x].visible = false;
 				}, x * delayTime);	
 			}
 			setTimeout(() => {
@@ -2974,12 +2982,13 @@ if (reversed == null) { reversed = false; }
 		this.onTapFunction = function(shapeNum) {
 			let thisGrid = this.whichGrid;
 			let thisArray = this.gridArray;
-			this[thisArray[thisGrid][0]]["shape_" + shapeNum].parent.setChildIndex(this[thisArray[thisGrid][0]]["shape_" + shapeNum], this[thisArray[thisGrid][0]]["shape_" + shapeNum].parent.numChildren - 1);
-			createjs.Tween.get(this[thisArray[thisGrid][0]]["shape_" + shapeNum])
-		    .to({ scaleX: this[thisArray[thisGrid][0]]["shape_" + shapeNum].scaleX * 1.02, scaleY: this[thisArray[thisGrid][0]]["shape_" + shapeNum].scaleY * 1.02 }, 100, createjs.Ease.quadOut);
+			let whichGd = thisArray[thisGrid][0];
+			this[whichGd][whichGd + "_shape_" + shapeNum].parent.setChildIndex(this[whichGd][whichGd + "_shape_" + shapeNum], this[whichGd][whichGd + "_shape_" + shapeNum].parent.numChildren - 1);
+			createjs.Tween.get(this[whichGd][whichGd + "_shape_" + shapeNum])
+		    .to({ scaleX: this[whichGd][whichGd + "_shape_" + shapeNum].scaleX * 1.02, scaleY: this[whichGd][whichGd + "_shape_" + shapeNum].scaleY * 1.02 }, 100, createjs.Ease.quadOut);
 			setTimeout(() => {
 				//console.log("After 1 second");
-				createjs.Tween.get(this[thisArray[thisGrid][0]]["shape_" + shapeNum])
+				createjs.Tween.get(this[whichGd][whichGd + "_shape_" + shapeNum])
 		    .to({ scaleX: 1, scaleY: 1 }, 100, createjs.Ease.quadOut);
 				if (this.gameOn) {
 					for (let x = 1; x <= thisArray[thisGrid][1]; x++) {
@@ -2987,7 +2996,7 @@ if (reversed == null) { reversed = false; }
 						if (this.shapeOrder[x - 1] == shapeNum && this.currentStage == x) {
 							this.currentStage++;
 							//console.log("shapeNum = ", shapeNum);
-							this[thisArray[thisGrid][0]]["shape_" + shapeNum].visible = false;
+							this[whichGd][whichGd + "_shape_" + shapeNum].visible = false;
 							this.animateIcon(true);
 							if (this.shapeOrder[this.shapeOrder.length - 1] === shapeNum) {
 								this.finishUp(true);
@@ -3050,53 +3059,53 @@ if (reversed == null) { reversed = false; }
 		
 		
 		
-		this.grid_4x4.shape_1.addEventListener("click", (event) => {
+		this.grid_4x4.grid_4x4_shape_1.addEventListener("click", (event) => {
 			this.onTapFunction(1);
 		});
 		
-		this.grid_4x4.shape_2.addEventListener("click", (event) => {
+		this.grid_4x4.grid_4x4_shape_2.addEventListener("click", (event) => {
 			this.onTapFunction(2);
 		});
 		
-		this.grid_4x4.shape_3.addEventListener("click", (event) => {
+		this.grid_4x4.grid_4x4_shape_3.addEventListener("click", (event) => {
 			this.onTapFunction(3);
 		});
 		
-		this.grid_4x4.shape_4.addEventListener("click", (event) => {
+		this.grid_4x4.grid_4x4_shape_4.addEventListener("click", (event) => {
 			this.onTapFunction(4);
 		});
 		
-		this.grid_4x4.shape_5.addEventListener("click", (event) => {
+		this.grid_4x4.grid_4x4_shape_5.addEventListener("click", (event) => {
 			this.onTapFunction(5);
 		});
 		
 		
 		
-		this.grid_5x5.shape_1.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_1.addEventListener("click", (event) => {
 			this.onTapFunction(1);
 		});
 		
-		this.grid_5x5.shape_2.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_2.addEventListener("click", (event) => {
 			this.onTapFunction(2);
 		});
 		
-		this.grid_5x5.shape_3.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_3.addEventListener("click", (event) => {
 			this.onTapFunction(3);
 		});
 		
-		this.grid_5x5.shape_4.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_4.addEventListener("click", (event) => {
 			this.onTapFunction(4);
 		});
 		
-		this.grid_5x5.shape_5.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_5.addEventListener("click", (event) => {
 			this.onTapFunction(5);
 		});
 		
-		this.grid_5x5.shape_6.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_6.addEventListener("click", (event) => {
 			this.onTapFunction(6);
 		});
 		
-		this.grid_5x5.shape_7.addEventListener("click", (event) => {
+		this.grid_5x5.grid_5x5_shape_7.addEventListener("click", (event) => {
 			this.onTapFunction(7);
 		});
 	}
@@ -3105,23 +3114,19 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(7));
 
 	// Title
-	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(118.35,56.75,0.5,0.5);
+	this.instance = new lib.CachedBmp_66();
+	this.instance.setTransform(97.35,89.3,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(9));
+	this.instance_1 = new lib.CachedBmp_65();
+	this.instance_1.setTransform(93.6,56.55,0.5,0.5);
 
-	// Underline
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#231F20").ss(1.2).p("AsLAAIYXAA");
-	this.shape.setTransform(199.9,90.1);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(9));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(9));
 
 	// Instructions
-	this.instance_1 = new lib.CachedBmp_2();
-	this.instance_1.setTransform(61.55,466.2,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_2();
+	this.instance_2.setTransform(61.55,466.2,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(9));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(9));
 
 	// Test_clicks_remaining
 	this.testClicksRemaining = new lib.TestClicksRemaining();
@@ -3210,7 +3215,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(261.6,331.8,77,161.89999999999998);
+p.nominalBounds = new cjs.Rectangle(261.6,331.6,77,162.09999999999997);
 // library properties:
 lib.properties = {
 	id: 'F9E2F03B988949F3BBD507917F055C6F',
@@ -3220,9 +3225,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/ColourGrid_09_atlas_1.png?1741725528584", id:"ColourGrid_09_atlas_1"},
-		{src:"images/ColourGrid_09_atlas_2.png?1741725528584", id:"ColourGrid_09_atlas_2"},
-		{src:"images/ColourGrid_09_atlas_3.png?1741725528584", id:"ColourGrid_09_atlas_3"}
+		{src:"images/ColourGrid_09_atlas_1.png?1741938399620", id:"ColourGrid_09_atlas_1"},
+		{src:"images/ColourGrid_09_atlas_2.png?1741938399620", id:"ColourGrid_09_atlas_2"},
+		{src:"images/ColourGrid_09_atlas_3.png?1741938399621", id:"ColourGrid_09_atlas_3"}
 	],
 	preloads: []
 };
